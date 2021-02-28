@@ -1,0 +1,30 @@
+<mat-card>
+  <form #productForm="ngForm" (ngSubmit)="save(productForm.value)">
+  <mat-card-header>
+    <mat-card-title>
+      <h2>Add Product</h2>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+      <input type="hidden" name="id" [(ngModel)]="product.id">
+      <h3>Name</h3>
+      <mat-form-field>
+        <input matInput [(ngModel)]="product.name" required name="Name">
+      </mat-form-field>
+      <h3>Description</h3>
+      <mat-form-field>
+        <input matInput [(ngModel)]="product.description" required name="Description">
+      </mat-form-field>     
+      <h3>Price</h3>
+      <mat-form-field>
+        <input matInput [(ngModel)]="product.price" required name="Price">
+      </mat-form-field>     
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" [disabled]="!productForm.form.valid">Add</button>
+    <a mat-button routerLink="/api/products">Cancel</a>
+  </mat-card-actions>
+  <mat-card-footer>
+  </mat-card-footer>
+  </form>
+</mat-card>

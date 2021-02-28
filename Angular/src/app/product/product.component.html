@@ -1,0 +1,21 @@
+<mat-card>
+    <button mat-fab color="primary" [routerLink]="['/product-add']">Add</button>
+    <p></p>
+    <mat-card-header>Product List</mat-card-header>
+    <mat-card-content>
+  <mat-list>
+    <mat-list-item *ngFor="let product of products">
+      <h3 mat-line>
+        <a mat-button>{{product.id}} - {{product.name}}</a>
+        <button (click)="delete(product.id)">Delete</button>
+      </h3>
+    </mat-list-item>
+  </mat-list>
+  <div *ngIf="error">Invalid Product Id</div>
+  <div *ngIf="checkDelete">Item has been deleted</div>
+  <form (submit)="onSubmit()">
+    <input type="text" [(ngModel)]="productId" name="id">
+    <button type="submit" [routerLink]="['/product-edit', productId]"> Find Product </button>
+  </form>
+  </mat-card-content>
+</mat-card>
