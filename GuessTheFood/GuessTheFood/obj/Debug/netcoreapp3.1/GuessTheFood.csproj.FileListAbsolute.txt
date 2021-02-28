@@ -1,0 +1,13 @@
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\bin\Debug\netcoreapp3.1\GuessTheFood.exe
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\bin\Debug\netcoreapp3.1\GuessTheFood.deps.json
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\bin\Debug\netcoreapp3.1\GuessTheFood.runtimeconfig.json
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\bin\Debug\netcoreapp3.1\GuessTheFood.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\bin\Debug\netcoreapp3.1\GuessTheFood.dll
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\bin\Debug\netcoreapp3.1\GuessTheFood.pdb
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\obj\Debug\netcoreapp3.1\GuessTheFood.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\obj\Debug\netcoreapp3.1\GuessTheFood.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\obj\Debug\netcoreapp3.1\GuessTheFood.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\obj\Debug\netcoreapp3.1\GuessTheFood.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\obj\Debug\netcoreapp3.1\GuessTheFood.dll
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\obj\Debug\netcoreapp3.1\GuessTheFood.pdb
+C:\Users\Admin\OneDrive\Desktop\GuessTheFood\GuessTheFood\obj\Debug\netcoreapp3.1\GuessTheFood.genruntimeconfig.cache
